@@ -1,0 +1,125 @@
+{
+  "current_page": 1,
+  "data": [
+    {
+      "id": "1",
+      "state": {
+        "description": "Publicado"
+      },
+      "property_type": {
+        "id": "MQ==",
+        "description": "Casa"
+      },
+      "operation_type": {
+        "id": "Mg==",
+        "description": "Venta"
+      },
+      "expiration_date": "05/04/2023 00:00:00",
+      "address": "Dirección 1",
+      "town": "Ciudad 1",
+      "province": "Provincia 1",
+      "environments": 3,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "garages": 0,
+      "covered_area": null,
+      "total_area": 1000,
+      "antiquity": null,
+      "property_price": 450000,
+      "discount": 0,
+      "discount_price": 450000,
+      "expenses": null,
+      "coordinates_maps": null,
+      "title": "Propiedad 1",
+      "description": "Descripción propiedad 1",
+      "video": null,
+      "tour": null,
+      "photos": [
+        {
+          "id": "MQ==",
+          "file": "archivo1.png"
+        },
+        {
+          "id": "Mg==",
+          "file": "archivo2.png"
+        },
+        {
+          "id": "Mw==",
+          "file": "archivo3.png"
+        }
+      ],
+      "active": true,
+      "audit": {
+        "created_at": "08/02/2023 18:22:10",
+        "updated_at": "08/02/2023 18:22:10"
+      }
+    },
+    {
+      "id": "2",
+      "state": {
+        "description": "Publicado"
+      },
+      "property_type": {
+        "id": "MQ==",
+        "description": "Casa"
+      },
+      "operation_type": {
+        "id": "Mw==",
+        "description": "Alquiler"
+      },
+      "expiration_date": "05/04/2023 00:00:00",
+      "address": "Dirección 1",
+      "town": "Ciudad 1",
+      "province": "Provincia 1",
+      "environments": 3,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "garages": 0,
+      "covered_area": null,
+      "total_area": 1000,
+      "antiquity": null,
+      "property_price": 356000,
+      "discount": 0,
+      "discount_price": 356000,
+      "expenses": null,
+      "coordinates_maps": null,
+      "title": "Propiedad 10",
+      "description": "Descripción propiedad 10",
+      "video": null,
+      "tour": null,
+      "photos": [],
+      "active": true,
+      "audit": {
+        "created_at": "08/02/2023 18:22:10",
+        "updated_at": "08/02/2023 18:22:10"
+      }
+    }
+  ],
+  "first_page_url": "{{endpoint}}/api/advertisements/list?page=1",
+  "from": 1,
+  "last_page": 1,
+  "last_page_url": "{{endpoint}}/api/advertisements/list?page=1",
+  "links": [
+    {
+      "url": null,
+      "label": "pagination.previous",
+      "active": false
+    },
+    {
+      "url": "{{endpoint}}/api/advertisements/list?page=1",
+      "label": "1",
+      "active": true
+    },
+    {
+      "url": null,
+      "label": "pagination.next",
+      "active": false
+    }
+  ],
+  "next_page_url": null,
+  "path": "{{endpoint}}/api/advertisements/list",
+  "per_page": 15,
+  "prev_page_url": null,
+  "to": 7,
+  "total": 7
+}

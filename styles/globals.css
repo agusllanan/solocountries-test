@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --black-gradient: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+  --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+@-webkit-keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .shrinker {
+    font-size: 10px;
+    padding: 0px;
+  }
+  .logoCase.shrinkerLogo {
+    width: 100px;
+    height: 50px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .logoCase.shrinkerSmall {
+    width: 100px;
+    height: 20px;
+  }
+}
+
+@media only screen and (width: 540px) {
+  .logoCase.shrinkerSmall {
+    margin-left: 30%;
+  }
+}
+
+/* AUXILIARY STYLES */
+
+.promoCardShade {
+  filter: drop-shadow(10px 10px 10px rgba(50, 50, 0, 0.14));
+}
+
+.cardShade {
+  box-shadow: 5px 5px 10px rgba(80, 85, 92, 0.1);
+}
+
+.shrinkerFix {
+  padding-right: 20px;
+}
+
+.logoCase {
+  width: 200px;
+  height: 50px;
+}
+
+@media only screen and (max-width: 678px) {
+  .logoCase {
+    width: 160px;
+    height: 50px;
+    margin-left: 25%;
+  }
+}
+
+.xPaddingOut {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.marginPusher {
+  margin-right: 80px !important;
+}
+
+.panels {
+  clip-path: polygon(88% 0, 100% 14%, 99% 100%, 0 100%, 0 0);
+}
+
+.navShadow {
+  position: relative;
+  z-index: 1000;
+  box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (max-width: 768px) {
+  .columnShift {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .promoCardShrink {
+    height: 294px;
+    width: 300px;
+  }
+}
+
+.borderFade {
+  border-image: linear-gradient(to right, #a8baaf, #2b9355) 1;
+  width: 100%;
+  border-top: 20px;
+  border-style: solid;
+}
+
+@media only screen and (max-width: 768px) {
+  .workFont {
+    font-family: 'Work Sans';
+    font-weight: '700';
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .mobileUnjustify {
+    justify-content: normal;
+  }
+}
+
+.borderLeftFix {
+  border-radius: 0px 30px 0px 10px;
+}
+
+.borderRightFix {
+  border-radius: 30px 0px 10px;
+}
+
+.boxBorder {
+  box-shadow: 0 0 0 2px rgb(227, 227, 227);
+}
+
+/* CARD STYLES*/
+
+.card-img {
+  width: 300px;
+  height: 100%;
+  border-top: 10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.card-img-slider {
+  object-fit: cover;
+  width: 100%;
+  height: 300px;
+}
+.card-img-slider-2 {
+  object-fit: cover;
+  width: 100%;
+  height: 330px;
+  border-radius: 10px;
+  border: 1px solid white;
+}
